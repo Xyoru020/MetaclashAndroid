@@ -1,0 +1,63 @@
+proxies:
+  - name: akunssh-allahj
+    server: vip.xyoruzteam.biz.id
+    port: 443
+    type: vmess
+    uuid: 83bfa532-c218-11ef-9461-0016b061439e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: uea.xyoruzteam.biz.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: uea.xyoruzteam.biz.id
+    udp: true
+  - name: vpnhack-bhjh9-ws
+    server: vip.xyoruzteam.biz.id
+    port: 443
+    type: vmess
+    uuid: 82fd9152-da53-48bf-be1b-4b24d37520ff
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: jp0.vpnbro.me
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: jp0.vpnbro.me
+    udp: true
+  - name: US
+    server: vip.xyoruzteam.biz.id
+    port: 443
+    type: vless
+    uuid: 20a0ee60-c221-11ef-9177-1239d0255272
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: izin-make-min.xyoruzteam.biz.id
+    network: ws
+    ws-opts:
+      path: /vlws
+      headers:
+        Host: izin-make-min.xyoruzteam.biz.id
+    udp: true
+  - name: SG
+    server: xailla.xyoruzteam.biz.id
+    port: 443
+    type: vless
+    uuid: 283b2240-c220-11ef-bbbb-1239d0255272
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: soedirman.storage.edulogy.id
+    network: ws
+    ws-opts:
+      path: /vlws
+      headers:
+        Host: xailla.xyoruzteam.biz.id
+    udp: true
